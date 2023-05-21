@@ -1,3 +1,20 @@
+-- please use tools such as Microsoft PowerToys to do these global remaps first
+-- then, you are ready to enjoy the power of vim
+--   keyboard:
+--     caps lock     -> ctrl
+--     ctrl (right)  -> caps lock
+--     '             -> backspace
+--     backspace     -> enter
+--     enter         -> '
+--   shortcuts:
+--     shift + '     -> "
+--     caps lock + ; -> enter
+--     caps lock + ' -> '
+
+
+
+
+
 -- leader
 
 vim.g.mapleader = "^"
