@@ -170,8 +170,8 @@ vim.keymap.set("n", "gF", "<Cmd>call VSCodeNotify('editor.action.revealDeclarati
 
 -- visual mode mappings
 
-vim.keymap.set("v", "<c-j>", "<c-e>gj")
-vim.keymap.set("v", "<c-k>", "<c-y>gk")
+vim.keymap.set("v", "<C-j>", "gj<C-e>gj<C-e>gj<C-e>gj<C-e>gj<C-e>")
+vim.keymap.set("v", "<C-k>", "gk<C-y>gk<C-y>gk<C-y>gk<C-y>gk<C-y>")
 vim.keymap.set("v", "<C-h>", "^")
 vim.keymap.set("v", "<C-l>", "$")
 
