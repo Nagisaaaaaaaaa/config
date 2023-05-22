@@ -203,7 +203,17 @@
         "command": "runCommands",
         "when": "editorTextFocus && neovim.mode == normal",
         "args": {
-            "commands": ["cursorDown", "scrollLineDown"],
+            "commands": ["scrollLineDown",
+                         "cursorDown",
+                         "scrollLineDown",
+                         "cursorDown",
+                         "scrollLineDown",
+                         "cursorDown",
+                         "scrollLineDown",
+                         "cursorDown",
+                         "scrollLineDown",
+                         "cursorDown"
+                        ],
         }
     },
     {
@@ -211,7 +221,16 @@
         "command": "runCommands",
         "when": "editorTextFocus && neovim.mode == normal",
         "args": {
-            "commands": ["cursorUp", "scrollLineUp"],
+            "commands": ["scrollLineUp",
+                         "cursorUp",
+                         "scrollLineUp",
+                         "cursorUp",
+                         "scrollLineUp",
+                         "cursorUp",
+                         "scrollLineUp",
+                         "cursorUp",
+                         "scrollLineUp",
+                         "cursorUp"],
         }
     },
     
