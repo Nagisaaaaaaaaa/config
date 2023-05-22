@@ -104,7 +104,6 @@ vim.keymap.set("n", "<space>", "viw")
 -- vim.keymap.set("n", "z", "zz")
 -- vim.keymap.set("n", "<C-z>", "zz")
 
-vim.keymap.set("n", "m", "M")
 vim.keymap.set("n", "<CR>", "o")
 
 vim.keymap.set("n", "<", "<<")
@@ -153,6 +152,11 @@ vim.api.nvim_create_autocmd(
 )
 vim.keymap.set("n", "u", ":lua u()<CR>")
 vim.keymap.set("n", "<C-r>", "<C-r>:lua ctrl_r()<CR>")
+
+vim.keymap.set("n", "gd", "<Cmd>call VSCodeNotify('editor.action.peekDefinition')<CR>");
+vim.keymap.set("n", "gD", "<Cmd>call VSCodeNotify('editor.action.revealDefinition')<CR>");
+vim.keymap.set("n", "gf", "<Cmd>call VSCodeNotify('editor.action.peekDeclaration')<CR>");
+vim.keymap.set("n", "gF", "<Cmd>call VSCodeNotify('editor.action.revealDeclaration')<CR>");
 
 
 

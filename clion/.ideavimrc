@@ -117,7 +117,6 @@ nnoremap <silent> <space> viw
 nnoremap <silent> z zz
 nnoremap <silent> <C-z> zz
 
-nnoremap <silent> m M
 nnoremap <silent> <CR> o
 
 nnoremap <silent> < <<

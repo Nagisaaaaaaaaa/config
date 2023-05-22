@@ -42,8 +42,13 @@
     
     "editor.cursorSurroundingLines": 5,
     "editor.cursorSurroundingLinesStyle": "all",
+
+    "bookmarks.gutterIconFillColor": "#CAE62A",
+    "bookmarks.gutterIconBorderColor": "#CAE62A",
     
     "workbench.colorCustomizations": {
+        "bookmarks.lineBackground": "#434D0E",
+
         "editorLineNumber.activeForeground": "#CDC8D3",
         "editorLineNumber.dimmedForeground": "#CDC8D3",
         "editorLineNumber.foreground": "#CDC8D3",
@@ -57,7 +62,7 @@
         "comments": "#808080"
     },
     "textmarker.defaultHighlightOpacity": 0.7,
-    
+     
     "better-comments.tags": [
         {
             "tag": "!",
