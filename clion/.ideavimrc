@@ -103,8 +103,8 @@ inoremap <silent> <C-v> <ESC>pa
 
 nnoremap <silent> j gj
 nnoremap <silent> k gk
-nnoremap <silent> <C-j> gj<C-e>gj<C-e>gj<C-e>gj<C-e>gj<C-e>
-nnoremap <silent> <C-k> gk<C-y>gk<C-y>gk<C-y>gk<C-y>gk<C-y>
+nnoremap <silent> <C-j> <C-e>gj<C-e>gj<C-e>gj<C-e>gj<C-e>gj
+nnoremap <silent> <C-k> <C-y>gk<C-y>gk<C-y>gk<C-y>gk<C-y>gk
 nnoremap <silent> <C-h> ^
 nnoremap <silent> <C-l> $
 nnoremap <silent> <C-S-j> <C-w>j
@@ -146,8 +146,8 @@ nnoremap <silent> <C-]> }
 
 " visual mode mappings
 
-vnoremap <silent> <C-j> gj<C-e>gj<C-e>gj<C-e>gj<C-e>gj<C-e>
-vnoremap <silent> <C-k> gk<C-y>gk<C-y>gk<C-y>gk<C-y>gk<C-y>
+vnoremap <silent> <C-j> <C-e>gj<C-e>gj<C-e>gj<C-e>gj<C-e>gj
+vnoremap <silent> <C-k> <C-y>gk<C-y>gk<C-y>gk<C-y>gk<C-y>gk
 vnoremap <silent> <C-h> ^
 vnoremap <silent> <C-l> $
 
