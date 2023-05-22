@@ -29,6 +29,12 @@ vim.keymap.set("n", "f", ":HopChar1<CR>")
 vim.keymap.set("n", "F", ":HopChar2<CR>")
 vim.keymap.set("n", ";", ":HopWord<CR>")
 
+vim.keymap.set("n", "m", "<Cmd>call VSCodeNotify('bookmarks.toggle')<CR>")
+vim.keymap.set("n", "<C-i>", "<Cmd>call VSCodeNotify('bookmarks.jumpToPrevious')<CR>")
+vim.keymap.set("n", "<C-o>", "<Cmd>call VSCodeNotify('bookmarks.jumpToNext')<CR>")
+
+vim.keymap.set("n", "<tab>", "<Cmd>call VSCodeNotify('textmarker.toggleHighlight')<CR>")
+
 
 
 

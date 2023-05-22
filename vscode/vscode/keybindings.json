@@ -1,32 +1,6 @@
 // place your key bindings in this file to override the defaults
 [
     {
-        "key": "m",
-        "command": "bookmarks.toggle",
-        "when": "editorTextFocus && neovim.mode == normal",
-    },    
-    {
-        "key": "ctrl+i",
-        "command": "bookmarks.jumpToPrevious",
-        "when": "editorTextFocus && neovim.mode == normal",
-    },
-    {
-        "key": "ctrl+o",
-        "command": "bookmarks.jumpToNext",
-        "when": "editorTextFocus && neovim.mode == normal",
-    },
-
-
-
-    {
-        "key": "tab",
-        "command": "textmarker.toggleHighlight",
-        "when": "editorTextFocus && neovim.mode == normal",
-    },
-    
-    
-
-    {
         "key": "escape",
         "command": "runCommands",
         "when": "editorTextFocus && neovim.mode == normal",
