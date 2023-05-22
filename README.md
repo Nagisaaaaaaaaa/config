@@ -30,10 +30,22 @@ Here lists some extremely important keymaps.
 
 
 
+### System
+
+I use `PowerToys` to implement the following 3 mappings. A little bit extreme, maybe...
+
+```lua
+<Capslock> <-> <Ctrl>      -- as I said before
+'          <-> <Backspace> -- C++/CUDA programmers seldom use ', they use "
+<C-;>       -> <Enter>     -- Ctrl is now closer than Enter
+```
+
+
+
 ### Insert Mode
 
 ```lua
-fj -> <ESC>
+fj -> <ESC>        -- more comfortable than jj for me
 f; -> <ESC>A;<ESC> -- I'm a C++/CUDA programmer
 ```
 
@@ -53,7 +65,7 @@ m       -> toggle bookmark
 <C-i>   -> go to previous bookmark
 <C-o>   -> go to next bookmark
 
-<Tab>   -> highlight word
+<TAB>   -> highlight word
 
 <ESC>   -> clear all bookmarks and highlights
 
@@ -67,6 +79,9 @@ gd      -> peek definition
 gD      -> reveal definition
 gf      -> peek declaration
 gF      -> reveal declaration
+
+<C-h>   -> ^ -- ^ and $ locate far from your hands, right?
+<C-l>   -> $
 ```
 
 
@@ -74,6 +89,6 @@ gF      -> reveal declaration
 ### Visual Mode
 
 ```lua
-<Space> -> search selected -- <space><space> searchs the current word
+<Space> -> search selected -- so, <space><space> searchs the current word
 ```
 
