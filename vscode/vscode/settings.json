@@ -23,7 +23,7 @@
     
     "editor.tabSize": 2,
     
-    "files.autoSave": "onWindowChange",
+    "files.autoSave": "onFocusChange",
     
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.smoothScrolling": true,

@@ -73,8 +73,8 @@ vim.keymap.set("v", "S", "\"+S")
 
 -- insert mode mappings
 
--- vim.keymap.set("i", "fj", "<ESC>")
--- vim.keymap.set("i", "f;", "<ESC>A;<ESC>")
+-- vim.keymap.set("i", "<C-d>", "<ESC>")
+-- vim.keymap.set("i", "<C-f>", "<ESC>A;<ESC>")
 
 -- vim.keymap.set("i", "<C-j>", "<DOWN>")
 -- vim.keymap.set("i", "<C-k>", "<UP>")

@@ -37,16 +37,21 @@ I use `PowerToys` to implement the following 3 mappings. A little bit extreme, m
 ```lua
 <Capslock> <-> <Ctrl>      -- as I said before
 '          <-> <Backspace> -- C++/CUDA programmers seldom use ', they use "
+"           -> <S-'>       -- " remains unchanged
 <C-;>       -> <Enter>     -- Ctrl is now closer than Enter
 ```
+
+**From now on, `Ctrl` actually means `Capslock` on our keyboards.**
 
 
 
 ### Insert Mode
 
+The reason why I don't use `jk` or `fj` is that they work bad with both Clion and vscode.
+
 ```lua
-fj -> <ESC>        -- more comfortable than jj for me
-f; -> <ESC>A;<ESC> -- I'm a C++/CUDA programmer
+<C-d> -> <ESC>        -- more comfortable than jj for me
+<C-f> -> <ESC>A;<ESC> -- I'm a C++/CUDA programmer
 ```
 
 

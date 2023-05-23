@@ -80,8 +80,8 @@ vnoremap <silent> S "+S
 
 " insert mode mappings
 
-inoremap <silent> fj <ESC>
-inoremap <silent> f; <ESC>A;<ESC>
+inoremap <silent> <C-d> <ESC>
+inoremap <silent> <C-f> <ESC>A;<ESC>
 
 inoremap <silent> <C-j> <DOWN>
 inoremap <silent> <C-k> <UP>
