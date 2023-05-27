@@ -1,7 +1,9 @@
 {
     "cSpell.userWords": [
+        "aabb",
         "constexpr",
-        "Cumulant",
+        "Couette",
+        "cuda",
         "glfw",
         "MULTISAMPLE",
         "octree"
@@ -34,9 +36,6 @@
     "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
     
     "editor.mouseWheelZoom": true,
-    
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
 
     "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
     
@@ -47,19 +46,11 @@
     "bookmarks.gutterIconBorderColor": "#CAE62A",
     
     "workbench.colorCustomizations": {
-        "bookmarks.lineBackground": "#434D0E",
+        "bookmarks.lineBackground": "#32593D",
 
-        "editorLineNumber.activeForeground": "#CDC8D3",
-        "editorLineNumber.dimmedForeground": "#CDC8D3",
-        "editorLineNumber.foreground": "#CDC8D3",
-
-        "editor.findMatchHighlightBackground": "#376243",
+        "editorLineNumber.foreground": "#CCCCCC",
         
-        "editor.lineHighlightBackground": "#363536",
-        "editor.selectionBackground": "#69666A"
-    },
-    "editor.tokenColorCustomizations": {
-        "comments": "#808080"
+        "editor.lineHighlightBackground": "#343434",
     },
     "textmarker.defaultHighlightOpacity": 0.7,
      
@@ -84,7 +75,7 @@
         },
         {
             "tag": "/",
-            "color": "#6CA65E",
+            "color": "#90D175",
             "strikethrough": false,
             "underline": false,
             "backgroundColor": "transparent",
@@ -111,7 +102,7 @@
         },
         {
             "tag": "*",
-            "color": "#98C379",
+            "color": "#90D175",
             "strikethrough": false,
             "underline": false,
             "backgroundColor": "transparent",
@@ -123,5 +114,7 @@
     "background.style": {
         "opacity": 0.3,
         "loop": true
-    }
+    },
+
+    "workbench.iconTheme": "material-icon-theme"
 }
