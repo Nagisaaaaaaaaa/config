@@ -1,20 +1,3 @@
-" please use tools such as Microsoft PowerToys to do these global remaps first
-" then, you are ready to enjoy the power of vim
-"   keyboard:
-"     caps lock     -> ctrl
-"     ctrl (right)  -> caps lock
-"     '             -> backspace
-"     backspace     -> enter
-"     enter         -> '
-"   shortcuts:
-"     shift + '     -> "
-"     caps lock + ; -> enter
-"     caps lock + ' -> '
-
-
-
-
-
 " settings
 
 set nu
@@ -78,57 +61,18 @@ vnoremap <silent> S "+S
 
 
 
-" insert mode mappings
-
-inoremap <silent> <C-d> <ESC>
-inoremap <silent> <C-f> <ESC>A;<ESC>
-
-inoremap <silent> <C-j> <DOWN>
-inoremap <silent> <C-k> <UP>
-inoremap <silent> <C-h> <LEFT>
-inoremap <silent> <C-l> <RIGHT>
-inoremap <silent> <C-e> <ESC>ea
-inoremap <silent> <C-b> <ESC>bi
-inoremap <silent> <C-a> <ESC>A
-inoremap <silent> <C-i> <ESC>I
-
-inoremap <silent> <C-c> <ESC>ciw
-inoremap <silent> <C-v> <ESC>pa
-
-
-
-
-
 " normal mode mappings
 
 nnoremap <silent> j gj
 nnoremap <silent> k gk
-nnoremap <silent> <C-j> <C-e>gj<C-e>gj<C-e>gj<C-e>gj<C-e>gj
-nnoremap <silent> <C-k> <C-y>gk<C-y>gk<C-y>gk<C-y>gk<C-y>gk
-nnoremap <silent> <C-h> ^
-nnoremap <silent> <C-l> $
-nnoremap <silent> <C-S-j> <C-w>j
-nnoremap <silent> <C-S-k> <C-w>k
-nnoremap <silent> <C-S-h> <C-w>h
-nnoremap <silent> <C-S-l> <C-w>l
 
-nnoremap <silent> <space> viw
+nnoremap <silent> * viwy/\V<C-r>"<CR>N
+nnoremap <silent> # viwy/?V<C-r>"<CR>N
 
-nnoremap <silent> z zz
-nnoremap <silent> <C-z> zz
-
-nnoremap <silent> <CR> o
-
-nnoremap <silent> < <<
-nnoremap <silent> > >>
-
-nnoremap <silent> <A-j> :m+1<CR>
-nnoremap <silent> <A-k> :m-2<CR>
+nnoremap <silent> <C-u> zz<C-u>
+nnoremap <silent> <C-d> zz<C-d>
 
 nnoremap <silent> G Gzz
-
-nnoremap <silent> <C-n> zc
-nnoremap <silent> <C-m> zo
 
 " Idea only
 nnoremap <silent> <C-=> :action EditorIncreaseFontSize<CR>zz
@@ -137,21 +81,10 @@ nnoremap <silent> <C-f> :action SearchEverywhere<CR>
 
 nnoremap <silent> <C-s> :w<CR>
 
-nnoremap <silent> <C-[> {
-nnoremap <silent> <C-]> }
-
 
 
 
 
 " visual mode mappings
 
-vnoremap <silent> <C-j> <C-e>gj<C-e>gj<C-e>gj<C-e>gj<C-e>gj
-vnoremap <silent> <C-k> <C-y>gk<C-y>gk<C-y>gk<C-y>gk<C-y>gk
-vnoremap <silent> <C-h> ^
-vnoremap <silent> <C-l> $
-
 vnoremap <silent> <space> y/\V<C-r>"<CR>N
-
-vnoremap <silent> i I
-vnoremap <silent> a A
