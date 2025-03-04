@@ -1,7 +1,8 @@
 " settings
 
+set oldundo
+
 set nu
-set relativenumber
 
 set expandtab                      " replace \t with \s
 set tabstop=2                      " width of \t
@@ -67,7 +68,7 @@ nnoremap <silent> j gj
 nnoremap <silent> k gk
 
 nnoremap <silent> * viwy/\V<C-r>"<CR>N
-nnoremap <silent> # viwy/?V<C-r>"<CR>N
+nnoremap <silent> # viwy?\V<C-r>"<CR>N
 
 nnoremap <silent> <C-u> zz<C-u>
 nnoremap <silent> <C-d> zz<C-d>
@@ -87,4 +88,4 @@ nnoremap <silent> <C-s> :w<CR>
 
 " visual mode mappings
 
-vnoremap <silent> <space> y/\V<C-r>"<CR>N
+vnoremap <silent> * y/\V<C-r>"<CR>N
