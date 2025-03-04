@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 2,
+  "vim.ignorecase": false,
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.vimrc.enable": true,
+  "vim.vimrc.path": "your/path/to/.vscodevimrc"
+}
